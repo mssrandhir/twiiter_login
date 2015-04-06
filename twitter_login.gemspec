@@ -6,7 +6,7 @@ require 'twitter_login/version'
 Gem::Specification.new do |spec|
   spec.name          = "twitter_login"
   spec.version       = TwitterLogin::VERSION
-  spec.authors       = ["mss_randhir"]
+  spec.authors       = ["mssrandhir"]
   spec.email         = ["mss.randhir@gmail.com"]
 
   spec.summary       = %q{Gem for twitter login}
