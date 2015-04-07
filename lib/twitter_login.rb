@@ -2,9 +2,9 @@ require "twitter_login/version"
 
 module TwitterLogin
   # Your code goes here...
-  class init
+  #class init
 
-	  	def initialize (app_key = nil, app_secret = nil)
+	  	def self.initialize (app_key = nil, app_secret = nil)
 
 	  		if api_key and api_secret
 	  			return "Initilizer is working"
@@ -14,5 +14,5 @@ module TwitterLogin
 
 			end
 
-	end
+	#end
 end
