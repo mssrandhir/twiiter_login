@@ -1,6 +1,6 @@
 require "twitter_login/version"
 
-class TwitterLogin
+module TwitterLogin
   # Your code goes here...
   	def self.init
   		return "First out puts from gem"
