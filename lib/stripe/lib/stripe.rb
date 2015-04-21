@@ -1,9 +1,6 @@
-module TwitterLogin
-  # VERSION = "0.1.0"
-  class StripeInit
-  
-  
-  	api_key
+class stripe
+
+	api_key
 	apiBase = 'https://api.stripe.com'
 	apiVersion = null;
   	verifySslCerts = true;
@@ -17,7 +14,4 @@ module TwitterLogin
   		puts api_key
   		self::api_key = api_key
   	end
-  
-  end
-
 end
