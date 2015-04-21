@@ -9,12 +9,12 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'twitter_login'
+gem 'twitter_login', :git => 'git://github.com/mssrandhir/twitter_login.git'
 ```
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
