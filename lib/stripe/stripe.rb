@@ -3,19 +3,19 @@ module TwitterLogin
   class StripeInit
   
   
- #  	api_key
-	# apiBase = 'https://api.stripe.com'
-	# apiVersion = null;
- #  	verifySslCerts = true;
+  	@api_key
+	@apiBase = 'https://api.stripe.com'
+	@apiVersion = nil;
+  	@verifySslCerts = true;
 
   	def self.getApiKey
-  		return self::api_key
+  		return @api_key
   	end
 
   	def self.setApiKey (api_key = nil)
   		puts "setting you stripe key"
   		puts api_key
-  		#self::api_key = api_key
+  		@api_key = api_key
   	end
   
   end
