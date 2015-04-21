@@ -22,7 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+require 'twitter_login'
+
+TwitterLogin::InitAccessKeys.initialize('your-app-key', 'your-app-secret')
 
 ## Development
 
