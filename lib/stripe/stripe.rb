@@ -12,7 +12,7 @@ module TwitterLogin
   		return self::api_key
   	end
 
-  	def self.setApiKey api_key
+  	def self.setApiKey (api_key = nil)
   		puts "setting you stripe key"
   		puts api_key
   		self::api_key = api_key
