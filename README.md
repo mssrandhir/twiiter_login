@@ -22,9 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-require 'twitter_login'
+    require 'twitter_login'
 
-TwitterLogin::InitAccessKeys.initialize('your-app-key', 'your-app-secret')
+    TwitterLogin::InitAccessKeys.initialize('your-app-key', 'your-app-secret')
 
 ## Development
 
