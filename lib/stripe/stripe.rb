@@ -8,11 +8,11 @@ module TwitterLogin
 	apiVersion = null;
   	verifySslCerts = true;
 
-  	def getApiKey
+  	def self.getApiKey
   		return self::api_key
   	end
 
-  	def setApiKey api_key
+  	def self.setApiKey api_key
   		puts "setting you stripe key"
   		puts api_key
   		self::api_key = api_key
