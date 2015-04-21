@@ -2,7 +2,7 @@ require "twitter_login/version"
 
 module TwitterLogin
   # Your code goes here...
-  class initAccessKeys
+  class InitAccessKeys
 
 	  	def self.initialize (app_key = nil, app_secret = nil)
 
@@ -12,7 +12,7 @@ module TwitterLogin
 	  			return "You must specify you app credentials"
 	  		end
 
-			end
+		end
 
 	end
 end
